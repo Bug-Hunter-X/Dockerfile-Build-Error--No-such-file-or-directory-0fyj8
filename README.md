@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: attempting to install dependencies using a requirements.txt file that hasn't been copied into the image yet.  The original Dockerfile will fail to build.  The corrected Dockerfile shows the proper order of commands. 
